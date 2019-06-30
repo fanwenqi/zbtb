@@ -1,0 +1,59 @@
+.titleInfo{
+	font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "微软雅黑";
+    margin: 20px 30px;
+}
+
+.info-sources{
+	font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ewb-info-list{
+	min-height: 600px;
+}
+
+.ewb-location{
+	margin-top: 10px;
+    height: 36px;
+    padding-left: 15px;
+    line-height: 55px;
+    color: #333;
+}
+
+.infoContentTitle{
+	min-height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.ewb-location a{
+	color:#333;
+}
+
+/* loca */
+
+.ewb-loca {
+    margin-top: 20px;
+    margin-bottom: 10px;
+	padding-left: 10px;
+    line-height: 34px;
+    color: #666;
+    border: 1px solid #eee;
+    background: url(../images/subimgs/loca_img.png) 13px center no-repeat #f4f4f4;
+}
+
+.ewb-loca a {
+    color: #666;
+}
+
+.ewb-loca .ewb-cur {
+    font-weight: bold;
+    color: #6395ec;
+}

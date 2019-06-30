@@ -1,0 +1,643 @@
+/* yui3 reset.css */
+
+html {
+    color: #000;
+    background: #FFF
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+fieldset,
+img {
+    border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+ol,
+ul {
+    list-style: none
+}
+caption,
+th {
+    text-align: left
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+q:before,
+q:after {
+    content: ''
+}
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal
+}
+sup {
+    vertical-align: text-top
+}
+sub {
+    vertical-align: text-bottom
+}
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%
+}
+legend {
+    color: #000
+}
+iframe {
+    display: block;
+}
+
+/* yui3 fonts */
+
+body {
+    font: 14px/1.231 "Microsoft YaHei", arial, helvetica, clean, sans-serif;
+    color: #333;
+    background: #f0f0f0;
+}
+select,
+input,
+button,
+textarea {
+    font: 99% arial, helvetica, clean, sans-serif
+}
+table {
+    font-size: inherit;
+    font: 100%
+}
+pre,
+code,
+kbd,
+samp,
+tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%
+}
+a {
+    text-decoration: none;
+}
+
+/* utilities */
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.l {
+    float: left !important;
+}
+.r {
+    float: right !important;
+}
+.hidden {
+    display: none !important;
+}
+.invisible {
+    visibility: hidden !important;
+}
+.ewb-ml10 {
+    margin-left: 10px;
+}
+.ewb-mt10 {
+    margin-top: 10px;
+}
+.ewb-mt20 {
+    margin-top: 20px;
+}
+.ewb-ml20 {
+    margin-left: 20px;
+}
+.ewb-mt5 {
+    margin-top: 5px;
+}
+a:hover {
+    cursor: pointer;
+}
+
+/* header */
+
+.ewb-header {
+    overflow: hidden;
+}
+
+/* 头部动画 */
+
+.ewb-flash embed {
+    display: block;
+    width: 1220px;
+    height: 345px;
+    margin: 0 auto;
+}
+.ewb-head-bg,
+.ewb-flash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.ewb-head {
+    position: relative;
+    height: 345px;
+}
+.ewb-headtop {
+    position: relative;
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    z-index: 999;
+}
+.ewb-head-cy {
+    margin: 0 7px;
+}
+.ewb-head-date {
+    margin: 0 20px 0 10px;
+}
+.ewb-head-logo {
+    position: absolute;
+    top: 68px;
+    left: 43px;
+}
+.ewb-head-title {
+    position: absolute;
+    top: 189px;
+    right: 165px;
+}
+.ewb-menu {
+    position: relative;
+    margin-top: 226px;
+    z-index: 999;
+}
+.ewb-menu-items {
+    margin: 0 -3px;
+}
+.ewb-menu-items li {
+    float: left;
+    /*width: 16.66667%;*/
+   width:16.65667%
+}
+.ewb-menu-link {
+    display: block;
+    height: 70px;
+    margin: 0 3px;
+    background: url(../images/menu_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    transition: all .2s ease-in-out;
+}
+.ewb-menu-link:hover {
+    background: url(../images/menu_bg_h.png) no-repeat;
+	background-size: 100% 100%;
+}
+.ewb-menu-con {
+    display: block;
+    line-height: 70px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 90px;
+    background-repeat: no-repeat;
+    background-position: 32px center;
+}
+.ewb-menu-con.con1 {
+    background-image: url(../images/menu_img01.png);
+}
+.ewb-menu-con.con2 {
+    background-image: url(../images/menu_img02.png);
+}
+.ewb-menu-con.con3 {
+    background-image: url(../images/menu_img03.png);
+}
+.ewb-menu-con.con4 {
+    background-image: url(../images/menu_img04.png);
+}
+.ewb-menu-con.con5 {
+    background-image: url(../images/menu_img05.png);
+}
+.ewb-menu-con.con6 {
+    background-image: url(../images/menu_img06.png);
+}
+.ewb-menu-tt {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    padding-top: 7px;
+}
+.ewb-menu-det {
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* nav */
+
+.ewb-nav {
+    background: #199fe4;
+}
+.ewb-nav-items {
+    margin-left: 20px;
+}
+.ewb-nav-items li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.ewb-nav-link {
+    color: #fff;
+    font-size: 15px;
+    padding: 9px 15px 9px 15px;
+    cursor: pointer;
+}
+.ewb-nav-link:hover {
+    color: #199fe4;
+    background: #fff;
+}
+.ewb-nav-ser {
+    float: right;
+    width: 260px;
+    height: 32px;
+    margin: 9px 20px 0 0;
+    box-shadow: 1px 1px 1px #bcbcbc inset;
+    background: #fff;
+}
+.placeholder {
+    color: #b2b2b2;
+}
+.ewb-nav-ser input {
+    float: left;
+    width: 225px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    margin: 2px 0 0 2px;
+    text-indent: 14px;
+    outline: 0;
+    border: none;
+}
+.ewb-nav-ser button {
+    float: left;
+    width: 20px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    background: url(../images/ser_btn.png) no-repeat center;
+}
+
+/* footer */
+
+
+/* 国家级招标投网 */
+
+.ewb-select {
+    border-top: 1px solid #199fe4;
+    overflow: hidden;
+}
+.ewb-select-items {
+    margin: 0 -5px;
+}
+.ewb-select-item {
+    float: left;
+    width: 25%;
+    *width: 24.999%;
+    height: 30px;
+    margin-top: 10px;
+}
+.ewb-select-item>div {
+    display: block;
+    margin: 0 5px;
+}
+.ewb-select-item select {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 15px;
+    color: #4c4c4c;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    background: #fff;
+}
+.ewb-foot-link {
+    line-height: 27px;
+    color: #fff;
+    margin: 6px 0;
+    background: #199fe4;
+    text-align: center;
+}
+.ewb-foot-link a {
+    font-size: 12px;
+    color: #fff;
+}
+.ewb-foot-link a:hover {
+    color: #0070aa;
+}
+.ewb-foot-con {
+    position: relative;
+    padding: 8px 0;
+    border-top: 1px solid #e0e7ed;
+    background: #fff;
+}
+.ewb-foot-con p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #666;
+    text-align: center;
+}
+.ewb-foot-icon {
+    display: block;
+    position: absolute;
+}
+.ewb-foot-icon.icon01 {
+    top: 20px;
+    left: 303px;
+}
+.ewb-foot-icon.icon02 {
+    top: 18px;
+    right: 242px;
+}
+
+/* 二级页公共样式 */
+
+/*2019-06-17 -zht*/
+.isCanClick{
+	cursor: default !important;
+}
+
+
+
+/* 列表 */
+
+.wb-data-item {
+    padding: 11px 0 4px 14px;
+}
+/* 修改 */
+.wb-data-list {
+    line-height: 26px;
+    padding-left: 14px;
+    background: url(../images/listimg.png) 0 50% no-repeat;
+}
+.wb-data-infor {
+    margin-right: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wb-data-infor a {
+    color: #333;
+}
+.wb-data-date {
+    float: right;
+    font-size: 13px;
+    color: #999;
+    padding-right: 13px;
+    margin-top: -28px;
+}
+.wb-data-list:hover .wb-data-date,
+.wb-data-list:hover a {
+    color: #e62020;
+}
+
+/* 中心要闻 */
+
+.ewb-center-hd {
+    height: 36px;
+    margin: 0 13px;
+    border-bottom: 2px solid #eee;
+}
+.ewb-center-item {
+    float: left;
+    width: 25%;
+    line-height: 36px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+}
+.ewb-center-item.cur {
+    color: #199fe4;
+    border-bottom: 2px solid #199fe4;
+}
+.wb-data-item.center {
+    padding-top: 3px;
+}
+/* 修改 */
+.ewb-center-bd {
+    height: 147px;
+}
+
+/* 平板电脑和小屏电脑之间的分辨率 */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .ewb-head {
+        background: url(../images/head_bg2.jpg) no-repeat top center;
+    }
+    .ewb-head-logo {
+        width: 60%;
+    }
+    .ewb-head-title {
+        width: 30%;
+        right: 65px;
+    }
+    .ewb-menu-con {
+        font-size: 16px;
+        padding-left: 48px;
+        background-position: 8px center;
+        background-size: 26%;
+    }
+    /* nav */
+    .ewb-nav-link {
+        padding: 11px 5px 12px 5px;
+    }
+    /* foot */
+    .ewb-foot-icon.icon01 {
+        left: 12%;
+    }
+    .ewb-foot-icon.icon02 {
+        right: 5%;
+    }
+	.ewb-center-item {
+		font-size: 14px;
+	}
+	
+	.ewb-nav-ser{
+		width: 225px;
+	}
+	
+	.ewb-nav-ser input{
+		width: 195px;
+	}
+}
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+
+@media (max-width: 767px) {
+    .ewb-head-logo {
+        width: 60%;
+        left: 10px;
+        top: 52px;
+    }
+    .ewb-head-title {
+        width: 29%;
+        right: 10px;
+        top: 139px;
+    }
+    .ewb-menu {
+        margin-top: 143px;
+    }
+    .ewb-menu-items li {
+        width: 50%;
+        margin-top: 2px;
+    }
+    .ewb-menu-items {
+        margin: 0;
+    }
+    .ewb-menu-link {
+        height: 49px;
+    }
+    .ewb-menu-con {
+        line-height: 49px;
+        font-size: 14px;
+        font-weight: normal;
+        padding-left: 25%;
+        text-align: center;
+        background-position: 19% center;
+        background-size: 15%;
+    }
+    /* nav */
+    .ewb-nav-items {
+        width: 100%;
+        padding-top: 4px;
+        margin-left: 0;
+    }
+    .ewb-nav-items li {
+        width: 33.333%;
+        height: auto;
+        line-height: 28px;
+        text-align: center;
+    }
+    .ewb-nav-link {
+        display: block;
+        font-size: 14px;
+        padding: 0;
+    }
+    .ewb-nav-ser {
+        width: 98%;
+        margin: 5px;
+    }
+    .ewb-nav-ser input {
+        width: 94%;
+    }
+    /* foot */
+    .ewb-select-items {
+        margin: 0;
+    }
+    .ewb-select-item {
+        width: 100%;
+    }
+    .ewb-foot-icon.icon01 {
+        top: 69px;
+        left: 20px;
+    }
+    .ewb-foot-icon.icon02 {
+        top: 69px;
+        right: 0;
+    }
+    .ewb-foot-icon {
+        width: 80px;
+    }
+}
+
+/* 横向放置的手机及分辨率更小的设备 */
+
+@media (max-width: 480px) {
+    .ewb-head-logo {
+        width: 80%;
+    }
+    .ewb-head-title {
+        width: 52%;
+    }
+    .ewb-menu-link p {
+        background-position: 12% center;
+        background-size: 15%;
+    }
+    /* nav */
+    .ewb-nav-ser {
+        width: 97%;
+    }
+    .ewb-nav-ser input {
+        width: 88%;
+    }
+    /* footer */
+}
+
